@@ -9,6 +9,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "lint:script": "eslint .",
+    "lint:script-fix": "eslint --fix .",
     "typecheck": "nuxi typecheck"
   },
   "dependencies": {
@@ -18,7 +20,9 @@
   },
   "devDependencies": {
     "@intlify/eslint-plugin-vue-i18n": "3.0.0-next.7",
+    "@nuxt/eslint": "0.3.0-alpha.0",
     "@nuxtjs/i18n": "^8.2.0",
+    "eslint": "^8.57.0",
     "typescript": "^5.4.2",
     "vue-tsc": "^2.0.6"
   }

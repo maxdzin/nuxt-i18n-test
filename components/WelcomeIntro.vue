@@ -4,6 +4,8 @@
       {{ $t('welcome.intro') }}
     </div>
 
-    <div class="my-10 text-neutral-600">{{ $t('some.deeper.nested.key') }}</div>
+    <div class="my-10 text-neutral-600">
+      {{ $t('some.deeper.nested.key') }}
+    </div>
   </div>
 </template>
