@@ -1,0 +1,12 @@
+{
+    "welcome": {
+        "intro": "Welcome!"
+    },
+    "some": {
+        "deeper": {
+            "nested": {
+                "key": "Test deep nested key"
+            }
+        }
+    }
+}
