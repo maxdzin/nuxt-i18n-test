@@ -1,7 +1,0 @@
-.nitro
-.nuxt
-.output
-.vscode
-dist
-node_modules
-coverage
