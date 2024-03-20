@@ -20,8 +20,8 @@ devDependencies:
     specifier: 3.0.0-next.7
     version: 3.0.0-next.7(eslint@8.57.0)
   '@nuxt/eslint':
-    specifier: 0.3.0-alpha.0
-    version: 0.3.0-alpha.0(eslint@8.57.0)(nuxt@3.11.1)(rollup@4.13.0)(typescript@5.4.2)(vite@5.1.6)
+    specifier: 0.3.0-alpha.1
+    version: 0.3.0-alpha.1(eslint@8.57.0)(nuxt@3.11.1)(rollup@4.13.0)(typescript@5.4.2)(vite@5.1.6)
   '@nuxtjs/i18n':
     specifier: ^8.2.0
     version: 8.2.0(rollup@4.13.0)(vue@3.4.21)
@@ -1250,14 +1250,14 @@ packages:
       - supports-color
       - utf-8-validate
 
-  /@nuxt/eslint-config@0.3.0-alpha.0(eslint@8.57.0)(typescript@5.4.2):
-    resolution: {integrity: sha512-DdCphIOwv8d/YpCf3szWcfcxN1SGJihfhIVqc4MynKUyijfeQ1X3Wbr78SCgGMt02DyTzoDFvWzkyl/9y1LNvQ==}
+  /@nuxt/eslint-config@0.3.0-alpha.1(eslint@8.57.0)(typescript@5.4.2):
+    resolution: {integrity: sha512-bB3X3pCnpnngea15/Xxk83wGGr/Kxop8hyD0sLkC+2q54RclLkBRLvK/hd5/tS1zjBOIZJ5mYhq63mE2biBG9w==}
     peerDependencies:
       eslint: ^8.56.0
     dependencies:
       '@eslint/js': 8.57.0
-      '@nuxt/eslint-plugin': 0.3.0-alpha.0(eslint@8.57.0)(typescript@5.4.2)
-      '@rushstack/eslint-patch': 1.7.2
+      '@nuxt/eslint-plugin': 0.3.0-alpha.1(eslint@8.57.0)(typescript@5.4.2)
+      '@rushstack/eslint-patch': 1.8.0
       '@stylistic/eslint-plugin': 1.7.0(eslint@8.57.0)(typescript@5.4.2)
       '@typescript-eslint/eslint-plugin': 7.3.1(@typescript-eslint/parser@7.3.1)(eslint@8.57.0)(typescript@5.4.2)
       '@typescript-eslint/parser': 7.3.1(eslint@8.57.0)(typescript@5.4.2)
@@ -1270,8 +1270,8 @@ packages:
       - typescript
     dev: true
 
-  /@nuxt/eslint-plugin@0.3.0-alpha.0(eslint@8.57.0)(typescript@5.4.2):
-    resolution: {integrity: sha512-XucapfvHlCagxaazS91O+5MdFecfpP5AhWt4Dv2wyHZrlmmZCTWe9pkmleiHchyQiZLb0StSY6xCl+2eaykgOg==}
+  /@nuxt/eslint-plugin@0.3.0-alpha.1(eslint@8.57.0)(typescript@5.4.2):
+    resolution: {integrity: sha512-KYgxFMA1S3R3iUOSiZeqtdR6xjy5BZZtH3HJBi8Eqcfi6mY9GijPxy1eH8Tns6VROc6nsecIAJf2dK43akVrFQ==}
     peerDependencies:
       eslint: ^8.55.0
     dependencies:
@@ -1283,8 +1283,8 @@ packages:
       - typescript
     dev: true
 
-  /@nuxt/eslint@0.3.0-alpha.0(eslint@8.57.0)(nuxt@3.11.1)(rollup@4.13.0)(typescript@5.4.2)(vite@5.1.6):
-    resolution: {integrity: sha512-P+ZjrFWO7PMqnVxtMDRU4nbVIkRYiTY63dnpNFzlDzGxNTB1SgWmvld6XSf+H3pLu9VQkRj1ZOSwl2CCA/IrmQ==}
+  /@nuxt/eslint@0.3.0-alpha.1(eslint@8.57.0)(nuxt@3.11.1)(rollup@4.13.0)(typescript@5.4.2)(vite@5.1.6):
+    resolution: {integrity: sha512-zwttUZ37pU83X96UqyAW7J50/622PlUDlKd20zIN6mbbU2YVUhM1r6vH4W65vz5LxpIchxlvPg05LE/SLE1PJQ==}
     peerDependencies:
       eslint: ^8.55.0
       eslint-webpack-plugin: ^4.1.0
@@ -1296,8 +1296,8 @@ packages:
         optional: true
     dependencies:
       '@nuxt/devtools-kit': 1.0.8(nuxt@3.11.1)(rollup@4.13.0)(vite@5.1.6)
-      '@nuxt/eslint-config': 0.3.0-alpha.0(eslint@8.57.0)(typescript@5.4.2)
-      '@nuxt/eslint-plugin': 0.3.0-alpha.0(eslint@8.57.0)(typescript@5.4.2)
+      '@nuxt/eslint-config': 0.3.0-alpha.1(eslint@8.57.0)(typescript@5.4.2)
+      '@nuxt/eslint-plugin': 0.3.0-alpha.1(eslint@8.57.0)(typescript@5.4.2)
       '@nuxt/kit': 3.11.1(rollup@4.13.0)
       chokidar: 3.6.0
       eslint: 8.57.0
@@ -1845,8 +1845,8 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@rushstack/eslint-patch@1.7.2:
-    resolution: {integrity: sha512-RbhOOTCNoCrbfkRyoXODZp75MlpiHMgbE5MEBZAnnnLyQNgrigEj4p0lzsMDyc1zVsJDLrivB58tgg3emX0eEA==}
+  /@rushstack/eslint-patch@1.8.0:
+    resolution: {integrity: sha512-0HejFckBN2W+ucM6cUOlwsByTKt9/+0tWhqUffNIcHqCXkthY/mZ7AuYPK/2IIaGWhdl0h+tICDO0ssLMd6XMQ==}
     dev: true
 
   /@sigstore/bundle@2.2.0:
@@ -2290,20 +2290,20 @@ packages:
       vite: 5.1.6
       vue: 3.4.21(typescript@5.4.2)
 
-  /@volar/language-core@2.1.2:
-    resolution: {integrity: sha512-5qsDp0Gf6fE09UWCeK7bkVn6NxMwC9OqFWQkMMkeej8h8XjyABPdRygC2RCrqDrfVdGijqlMQeXs6yRS+vfZYA==}
+  /@volar/language-core@2.1.3:
+    resolution: {integrity: sha512-F93KYZYqcYltG7NihfnLt/omMZOtrQtsh2+wj+cgx3xolopU+TZvmwlZWOjw3ObZGFj3SKBb4jJn6VSfSch6RA==}
     dependencies:
-      '@volar/source-map': 2.1.2
+      '@volar/source-map': 2.1.3
 
-  /@volar/source-map@2.1.2:
-    resolution: {integrity: sha512-yFJqsuLm1OaWrsz9E3yd3bJcYIlHqdZ8MbmIoZLrAzMYQDcoF26/INIhgziEXSdyHc8xd7rd/tJdSnUyh0gH4Q==}
+  /@volar/source-map@2.1.3:
+    resolution: {integrity: sha512-j+R+NG/OlDgdNMttADxNuSM9Z26StT/Bjw0NgSydI05Vihngn9zvaP/xXwfWs5qQrRzbKVFxJebS2ks5m/URuA==}
     dependencies:
       muggle-string: 0.4.1
 
-  /@volar/typescript@2.1.2:
-    resolution: {integrity: sha512-lhTancZqamvaLvoz0u/uth8dpudENNt2LFZOWCw9JZiX14xRFhdhfzmphiCRb7am9E6qAJSbdS/gMt1utXAoHQ==}
+  /@volar/typescript@2.1.3:
+    resolution: {integrity: sha512-ZZqLMih4mvu2eJAW3UCFm84OM/ojYMoA/BU/W1TctT5F2nVzNJmW4jxMWmP3wQzxCbATfTa5gLb1+BSI9NBMBg==}
     dependencies:
-      '@volar/language-core': 2.1.2
+      '@volar/language-core': 2.1.3
       path-browserify: 1.0.1
 
   /@vue-macros/common@1.10.1(rollup@4.13.0)(vue@3.4.21):
@@ -2408,7 +2408,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@volar/language-core': 2.1.2
+      '@volar/language-core': 2.1.3
       '@vue/compiler-dom': 3.4.21
       '@vue/shared': 3.4.21
       computeds: 0.0.1
@@ -6635,7 +6635,7 @@ packages:
     peerDependencies:
       typescript: '*'
     dependencies:
-      '@volar/typescript': 2.1.2
+      '@volar/typescript': 2.1.3
       '@vue/language-core': 2.0.6(typescript@5.4.2)
       semver: 7.6.0
       typescript: 5.4.2
